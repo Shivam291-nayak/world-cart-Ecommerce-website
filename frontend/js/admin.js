@@ -91,7 +91,7 @@ async function addProduct(e) {
 
 
   try {
-    const res = await fetch(`${API_BASE}/admin/products`, {
+    const res = await fetch(`http://localhost:5000/api/admin/products`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
